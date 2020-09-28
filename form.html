@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lan="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <style>
+        .container {
+            margin: auto;
+            width: 50%;
+            border: solid 1px black;
+        }
+
+        #former {
+            border: 1px solid black;
+            padding: 10px;
+            margin: 30px;
+
+        }
+
+        label {
+            padding-right: 10px;
+        }
+
+        h1 {
+            text-align: center;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Student Database</h1>
+    <div class="container">
+
+        <form action="#">
+            <div id="former">
+                <label>Name</label>
+                <input type="text" id="fname" size="20" name="fname">
+            </div>
+
+            <div id="former">
+                <label>RollNo</label>
+                <input type="number" name="name" id="roll" required>
+            </div>
+
+
+            <div id="former">
+                <label>Update</label>
+                <input type="radio" name="update" value="Pending">Pending
+                <input type="radio" name="update" value="Completed">Completed
+            </div>
+
+            <div id="former">
+                <label>Gender</label>
+                <input type="radio" name="gender" value="Male">Male
+                <input type="radio" name="gender" value="Completed">Female
+            </div>
+
+            <div id="former">
+                <input type="submit" value="Submit" id="submit">
+            </div>
+
+        </form>
+    </div>
+
+
+
+
+    <script src="data.js"></script>
+
+</body>
+
+</html>

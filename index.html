@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lan="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        #calendar {
+            width: 80%;
+            margin-left: 10%;
+            margin-top: 60px;
+        }
+
+        .calendartable {
+            width: 100%;
+            border: 1px solid black;
+
+        }
+
+        .calendartable thead tr th {
+            background: black;
+            border-bottom: 1px solid black;
+            padding: 20px 0px;
+            color: white;
+        }
+
+        .calendartable tbody tr td {
+            text-align: center;
+            padding: 20px 0;
+            border: 1px solid grey;
+            cursor: pointer;
+            background: whitesmoke;
+
+        }
+
+        .calendarbtns {
+            padding: 10px 0;
+            width: 100%;
+        }
+
+        .calendarbtns button {
+            padding: 6px 12px;
+            font-size: 18px;
+
+        }
+
+        .calendardiv {
+            display: none;
+
+        }
+
+        #calendardiv {
+            display: block;
+        }
+
+        #calendarTable_1 {
+            display: block;
+        }
+
+        .heading {
+            text-align: center;
+            text-transform: uppercase;
+            text-decoration: underline;
+            font-size: 30px;
+        }
+
+        #dash {
+            text-decoration: none;
+            padding: 10px;
+            color: black;
+            border: solid 1px black;
+            float: right;
+            background-color: tomato;
+            margin: auto;
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h2 class="heading">Calendar Events</h2>
+    <a href="form.html" id="dash">Dashboard</a>
+
+    <div id="calendar">
+
+
+    </div>
+    <script src="calendar.js"></script>
+</body>
+
+</html>
